@@ -23,7 +23,7 @@ for i in range(len(user)+1):
 operand2="0"
 for i in range(index, len(user)):
     if(user[i]=="+" or user[i]=="-" or user[i]=="*" or user[i]=="/" ):
-        print("Warning! Please donot repeat your operaator next time")
+        print("Warning! Please donot repeat your operators next time")
     else:
         operand2= operand2+ user[i]
 
