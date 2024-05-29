@@ -1,7 +1,7 @@
 import math
 str="Calculator"
 print(str.center(80))
-user=input("Enter the expression you want to calculate: ")
+user=input("Enter the expression you wanna calculate: ")
 operand1="0"
 index=0
 operator="+"
