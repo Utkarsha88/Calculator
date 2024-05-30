@@ -2,9 +2,9 @@ import math
 str="Calculator"
 print(str.center(80))
 user=input("Enter the expression you want to calculate: ")
-operand1="0"
+operand1=""
 index=0
-operator="+"
+operator=""
 for i in range(len(user)+1):
     
     
@@ -20,7 +20,7 @@ for i in range(len(user)+1):
     # elif(user[i]==" "):
     #     continue
 
-operand2="0"
+operand2=""
 for i in range(index, len(user)):
     if(user[i]=="+" or user[i]=="-" or user[i]=="*" or user[i]=="/" ):
         print("Warning! Please donot repeat your operators next time")
