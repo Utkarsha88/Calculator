@@ -8,6 +8,7 @@ operator=""
 for i in range(len(user)+1):
     
     
+
     if(user[i]=="+" or user[i]=="-" or user[i]=="*" or user[i]=="/" ):
         operator=user[i]
         index=i+1
